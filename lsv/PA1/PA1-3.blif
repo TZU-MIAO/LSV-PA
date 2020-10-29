@@ -1,0 +1,23 @@
+.model unate
+.inputs a b
+.outputs f 
+
+node n1:
++unate inputs: 
+-unate inputs: a b 
+
+.names a b f 
+00 0
+
+
+node n2:
++unate inputs: a b
+-unate inputs: 
+
+.names a b f 
+11 1
+10 0
+01 0
+00 0
+
+.end
